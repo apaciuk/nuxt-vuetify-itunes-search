@@ -6,11 +6,10 @@ const createStore = () => {
       albums: []
     },
     mutations: {
-       add (state, payload) {
-         state.albums = payload;
+      add (state, payload) {
+        state.albums = payload
       }
     }
   })
 }
-
 export default createStore

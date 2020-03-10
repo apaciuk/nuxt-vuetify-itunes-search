@@ -4,7 +4,7 @@
   style="max-width: 600px; margin: auto;"
   class="grey lighten-3"
   >
-    <v-container
+  <v-container
       fluid
       style="min-height: 0;"
       grid-list-lg
@@ -16,7 +16,7 @@
               <v-layout row>
                 <v-flex xs7>
                   <div>
-                    <h1 class="headline">{{title}}</h1>
+                    <h2 class="headline">{{title}}</h2>
                     <h4>{{artistName}}</h4>
                   </div>
                 </v-flex>
@@ -34,7 +34,6 @@
       </v-layout>
     </v-container>
   </div>
-
 </template>
 <script>
 export default {
