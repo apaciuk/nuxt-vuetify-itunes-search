@@ -1,0 +1,72 @@
+Arguments: 
+  /home/anton/.config/nvm/versions/node/v12.16.0/bin/node /home/anton/.config/nvm/versions/node/v12.16.0/bin/yarn serve
+
+PATH: 
+  /home/anton/.config/nvm/versions/node/v12.16.0/bin:/home/anton/Android/Sdk/emulator:/home/anton/Android/Sdk/tools:/home/anton/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/anton/bin:/home/anton/android-studio/jre/bin:/home/anton/Android/Sdk/tools:/home/anton/Android/Sdk/build-tools:/home/anton/Android/Sdk/platform-tools:/home/anton/Android/Sdk/emulator:/home/anton/.composer/vendor/bin:/home/anton/flutter/bin:/home/anton/node_modules/.bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/anton/Projects/Vue/current/nuxt-vuetify-itunes-search/package.json: Unexpected token 
+   in JSON at position 39
+      at JSON.parse (<anonymous>)
+      at /home/anton/.config/nvm/versions/node/v12.16.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/anton/.config/nvm/versions/node/v12.16.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/anton/.config/nvm/versions/node/v12.16.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "nuxt-vuetify-itunes-search
+    ",
+    "version": "1.0.0",
+    "description": "Nuxt.js Vuetify iTunes Search project",
+    "author": "Paul Anthony McGowan <xhostcom@gmail.com>",
+    "repository": "#",
+    "private": true,
+    "config": {
+      "nuxt": {
+        "host": "0.0.0.0",
+        "port": "3333"
+      }
+    },
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate",
+      "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "nuxt": "^1.0.0-rc11"
+    },
+    "devDependencies": {
+      "axios": "^0.17.1",
+      "babel-eslint": "^7.2.3",
+      "eslint": "^4.3.0",
+      "eslint-config-standard": "^10.2.1",
+      "eslint-loader": "^1.9.0",
+      "eslint-plugin-html": "^3.1.1",
+      "eslint-plugin-import": "^2.7.0",
+      "eslint-plugin-node": "^5.1.1",
+      "eslint-plugin-promise": "^3.5.0",
+      "eslint-plugin-standard": "^3.0.1",
+      "stylus": "^0.54.5",
+      "stylus-loader": "^3.0.1",
+      "vuetify": "^0.17.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
