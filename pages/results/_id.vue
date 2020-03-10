@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="top">
     <h1>Results for {{$route.params.id}}</h1>
     <div v-if="albumExists">
-      <div v-for="(album, index) in albumData">
+      <div v-for="(album, index) in albumData" v-bind:key="album.id">
         <Card
           :title="album.collectionCensoredName"
           :image="album.artworkUrl100"
@@ -48,3 +48,11 @@ export default {
 
 }
 </script>
+<style scoped>
+.top {
+  padding-top: 70px;
+}
+.top h1 {
+  text-transform:capitalize;
+}
+</style>

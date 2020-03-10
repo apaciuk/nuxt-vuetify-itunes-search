@@ -17,7 +17,7 @@
                 <v-flex xs7>
                   <div>
                     <h1 class="headline">{{title}}</h1>
-                    <h4>{{artistName}}</h4>
+                    <h2>{{artistName}}</h2>
                   </div>
                 </v-flex>
                 <v-flex xs5>
@@ -42,3 +42,17 @@ export default {
 
 }
 </script>
+ <div class="product">
+    <div :class="'product-inner ' + product.color">
+      <div class="product-text-wrap">
+        <h2 class="bg-text">{{ product.bgtext }}</h2>
+      </div>
+      <div class="product-image-wrap">
+        <img :src="product.src" class="image" />
+      </div>
+      <div class="product-detail">
+        <h2>{{ product.title }}</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt eligendi sed cupiditate eius dolores consequatur explicabo dignissimos magnam amet eveniet!</p>
+      </div>
+    </div>
+  </div>

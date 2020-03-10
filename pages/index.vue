@@ -10,9 +10,7 @@
       </v-flex>
 </v-layout>
 </template>
-
 <script>
-
 export default {
   components: {
   },
@@ -23,21 +21,16 @@ export default {
   },
   methods: {
       searchData () {
-         alert('Hello!')
-        }
-        //this.$router.push(`results/${this.search}`);
+         this.$router.push(`results/${this.search}`)
       }
   }
-
+}
 </script>
-
 <style>
 * {
   text-align: center;
 }
 .top {
-padding-top: 60px;
+padding-top: 70px;
 }
-
-
 </style>
