@@ -2,7 +2,7 @@ Nuxt Vuetify iTunes Search
 
 ## Introduction
 
-Finds iTunes artists with profile and links to albums
+Finds iTunes artists with profile and pictures/links to albums
 
 For Android/IOS
 
@@ -10,14 +10,16 @@ For Android/IOS
 
 NPM/Node
  Yarn
-Vue Native cli
-Expo cli
+ Vue CLI
+
 
 ## Installation
 
-Clone and run yarn
+Clone and run yarn/npm i
 
 ## Configuration
+
+Usual Nuxt goodies, middleware, routes etc. 
 
 npm start
 
