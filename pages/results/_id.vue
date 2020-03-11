@@ -36,7 +36,7 @@ export default {
   middleware: 'search',
   methods: {
     picker(index) {
-      return index % 2 == 0 ? 'red' : 'blue';
+      return index % 2 == 0 ?  'pink' : 'indigo';
     }
   },
   computed: {
