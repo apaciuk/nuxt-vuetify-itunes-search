@@ -19,6 +19,9 @@
                     <h2 class="headline">{{title}}</h2>
                     <h4>{{artistName}}</h4>
                   </div>
+              <div class="my-2">
+              <v-btn class="white--text" target="_blank" :href="url" text small>View Album</v-btn>
+                </div>
                 </v-flex>
                 <v-flex xs5>
                     <v-card-media
