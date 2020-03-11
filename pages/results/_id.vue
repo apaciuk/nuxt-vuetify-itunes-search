@@ -50,6 +50,7 @@ export default {
 </script>
 <style scoped>
 .top {
+  background-color:ghostwhite;
   padding-top: 70px;
 }
 .top h1 {

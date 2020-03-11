@@ -31,6 +31,7 @@ export default {
   text-align: center;
 }
 .top {
-padding-top: 70px;
+  background-color:ghostwhite;
+  padding-top: 70px;
 }
 </style>
