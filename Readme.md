@@ -6,12 +6,15 @@ Finds iTunes artists with profile and pictures/links to albums
 
 For Android/IOS
 
+## Repo 
+
+https://github.com/xhostcom/nuxt-vuetify-itunes-search.git
+
 ## Requirements
 
 NPM/Node
  Yarn
  Vue CLI
-
 
 ## Installation
 
